@@ -470,34 +470,14 @@ export default function Swap() {
         <div
           className={`w-[480px] max-[480px]:w-[100%] flex flex-col gap-[16px]`}
         >
-          <div
-            style={{
-              color: "#030201",
-              textAlign: "left",
-              fontFamily: "TWK Everett Mono",
-              fontSize: "32px",
-              fontStyle: "normal",
-              fontWeight: 700,
-              lineHeight: "140%",
-            }}
-          >
+          <div className="font-bold leading-tight text-[32px] text-left text-[#030201] font-['TWK Everett Mono Bold']">
             {selectAction === "SWAP"
               ? "Swap Anything"
               : selectAction === "CREATE"
               ? "Create Pool"
               : "Add Liquidity"}
           </div>
-          <div
-            style={{
-              color: "#030201",
-              textAlign: "right",
-              fontFamily: "TWK Everett Mono",
-              fontSize: "32px",
-              fontStyle: "normal",
-              fontWeight: 700,
-              lineHeight: "140%",
-            }}
-          >
+          <div className="text-right text-[32px] font-['TWK Everett Mono Bold'] font-bold leading-[140%]">
             Anytime Anywhere
           </div>
         </div>

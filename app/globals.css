@@ -7,12 +7,12 @@
   src: url("/TWKEverett-Regular.otf");
 }
 @font-face {
-  font-family: "twkemono-bold";
+  font-family: "TWK Everett Mono Bold";
   src: url("/TWKEverettMono-Bold.otf");
 }
 
 @font-face {
-  font-family: "twkemono-Regular";
+  font-family: "TWK Everett Mono";
   src: url("/TWKEverettMono-Regular.otf");
 }
 
