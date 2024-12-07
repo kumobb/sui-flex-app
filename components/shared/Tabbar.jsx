@@ -48,7 +48,7 @@ export default function Tabbar() {
         </div>
       ) : (
         <div className="flex justify-around">
-          <p className="text-base opacity-50 text-[#444] font-['twkemono-Regular']">
+          <p className="text-base opacity-50 text-[#444] font-['TWK Everett Mono']">
             © 2024 Flex Protocol. All rights reserved.
           </p>
           <div className="flex items-center gap-8">{socialIcons}</div>
