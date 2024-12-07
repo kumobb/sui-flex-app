@@ -13,7 +13,7 @@ export default function Topbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex justify-between items-center h-[100px] border-b-white p-[24px_64px] max-[800px]:p-[16px_24px]">
+    <nav className="flex justify-between items-center h-[100px] border-b-white p-[24px_64px] max-[800px]:p-[16px_24px] max-[800px]:flex-col max-[800px]:h-auto max-[800px]:gap-4">
       <Link href="/" className="flex-none">
         <Image
           src="/flex-logo.svg"

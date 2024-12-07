@@ -466,18 +466,18 @@ export default function Swap() {
 
   return (
     <>
-      <div className="relative flex flex-col justify-center items-center gap-[16px] mt-[32px] text-[#030201]">
+      <div className="relative flex flex-col justify-center items-center gap-[16px] mt-[32px] max-sm:mt-0 text-[#030201]">
         <div
-          className={`w-[480px] max-[480px]:w-[100%] flex flex-col gap-[16px]`}
+          className={`w-[480px] max-[480px]:w-[100%] flex flex-col gap-[16px] max-sm:gap-0`}
         >
-          <div className="font-bold leading-tight text-[32px] text-left text-[#030201] font-['TWK Everett Mono Bold']">
+          <div className="font-bold leading-tight text-[32px] text-left text-[#030201] font-['TWK Everett Mono Bold'] ml-[12px]">
             {selectAction === "SWAP"
               ? "Swap Anything"
               : selectAction === "CREATE"
               ? "Create Pool"
               : "Add Liquidity"}
           </div>
-          <div className="text-right text-[32px] font-['TWK Everett Mono Bold'] font-bold leading-[140%]">
+          <div className="text-right text-[32px] font-['TWK Everett Mono Bold'] font-bold leading-[140%] mr-[12px]">
             Anytime Anywhere
           </div>
         </div>

@@ -38,12 +38,10 @@ export default function Tabbar() {
 
   return (
     <footer
-      className={`absolute w-[100%] ${
-        pathname === "/" ? "bottom-6" : "bottom-0"
-      }`}
+      className={`w-[100%] ${pathname === "/" ? "bottom-6" : "bottom-0"}`}
     >
       {pathname !== "/" ? (
-        <div className="flex justify-center">
+        <div className="flex justify-center pt-[10px]">
           <Image alt="" src="/cat.svg" width={200} height={200}></Image>
         </div>
       ) : (

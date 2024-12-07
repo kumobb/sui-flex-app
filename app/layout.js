@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           <main className="flex flex-col min-h-screen text-white bg-main bg-[#FAD457] font-['TwkeRegular']">
             <Topbar />
 
-            {children}
+            <div className="flex-1">{children}</div>
 
             <Tabbar />
           </main>
