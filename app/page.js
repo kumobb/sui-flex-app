@@ -1,6 +1,9 @@
 import Image from "next/image";
+import { redirect } from 'next/navigation';
 
 export default function Home() {
+  redirect('/console');
+
   return (
     <main className="flex justify-center">
       <div className="border rounded-r-[1rem] bg-[#f1fbc4] pl-[4.62rem] pb-[3.12rem] mt-[2.5rem]">
